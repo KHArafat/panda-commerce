@@ -1,7 +1,7 @@
 .container{
     margin-bottom:30px;
 }
-.slider-bg{
+.color-bg{
     background-color:#feeae9;
     border:none;
     border-radius:10px;
@@ -19,4 +19,36 @@
     color:white;
     padding:9px 25px;
     cursor:pointer;
+}
+.cat1, .cat2, .cat3{
+    border:none;
+    border-radius:10px;
+}
+.cat1{
+    background-image:linear-gradient(45deg, #ef9331 0%, #f6c91d 100%);
+}
+.cat2{
+    background-image:linear-gradient(45deg, #ec1668 0%, #ec4e91 100%);
+}
+.cat3{
+    background-image:linear-gradient(45deg, #4478ff 0%, #380d48 100%);
+}
+.catagories h1{
+    color:white;
+}
+.catagories img{
+    width:100px;
+}
+.card{
+    border:none;
+    box-shadow:5px 5px 15px;
+}
+#subscribe{
+    height:300px
+}
+#subscribe h6{
+    color:gray;
+}
+footer{
+    text-align:center;
 }
